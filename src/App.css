@@ -2,37 +2,61 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.itemsCard{
+  margin-left: 0.7rem;
+  margin-top: 2rem;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.loginBox{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+
+.btnDelete{
+  margin-left: 1rem;
+}
+
+.listofThings{
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.thingsCard{
+  width: 18rem;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+
+
+
+@media (min-width: 1024px){  
+  .logoImage:hover{
+    cursor: pointer;
   }
-  to {
-    transform: rotate(360deg);
+
+  .itemsCard{
+    width: 18rem;
+    margin-left: 2rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+  }
+
+  .imageStyle{
+    width: 262px;
+    height: 155px;
+  }
+
+  .resetPass:hover{
+    cursor: pointer;
+  }
+
+  .cardStyle{
+    width: 18rem;
+  }
+
+  .btnDelete{
+    margin-left: 1rem;
   }
 }
